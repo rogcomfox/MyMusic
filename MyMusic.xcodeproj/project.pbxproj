@@ -13,6 +13,7 @@
 		DBF0E78524B80BD1003E8234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF0E78324B80BD1003E8234 /* Main.storyboard */; };
 		DBF0E78724B80BD7003E8234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF0E78624B80BD7003E8234 /* Assets.xcassets */; };
 		DBF0E78A24B80BD7003E8234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF0E78824B80BD7003E8234 /* LaunchScreen.storyboard */; };
+		DBF0E79324B82A06003E8234 /* test_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBF0E79224B82A06003E8234 /* test_music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBF0E78624B80BD7003E8234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBF0E78924B80BD7003E8234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBF0E78B24B80BD7003E8234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF0E79224B82A06003E8234 /* test_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = test_music.mp3; path = ../../../../../../Downloads/test_music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DBF0E77C24B80BD1003E8234 /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				DBF0E79124B829F5003E8234 /* Supported Files */,
 				DBF0E77D24B80BD1003E8234 /* AppDelegate.swift */,
 				DBF0E77F24B80BD1003E8234 /* SceneDelegate.swift */,
 				DBF0E78124B80BD1003E8234 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				DBF0E78B24B80BD7003E8234 /* Info.plist */,
 			);
 			path = MyMusic;
+			sourceTree = "<group>";
+		};
+		DBF0E79124B829F5003E8234 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF0E79224B82A06003E8234 /* test_music.mp3 */,
+			);
+			path = "Supported Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF0E79324B82A06003E8234 /* test_music.mp3 in Resources */,
 				DBF0E78A24B80BD7003E8234 /* LaunchScreen.storyboard in Resources */,
 				DBF0E78724B80BD7003E8234 /* Assets.xcassets in Resources */,
 				DBF0E78524B80BD1003E8234 /* Main.storyboard in Resources */,
